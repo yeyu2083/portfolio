@@ -1,0 +1,75 @@
+.background-image {
+    background-image: url("../../assets/teclado.jpg");
+    background-size: cover;
+} 
+ 
+
+.contenedorheader {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+h1 {
+    color: white;
+
+}
+.image {
+    width: 40px;
+    border-radius: 25%;
+    border: 1px solid white;
+    margin-top: 15px;
+}
+.contenedoriconos  > a {
+    margin-left: 15px;
+    cursor: pointer;
+    color: white;
+
+}
+.contenedoriconos > a:hover {
+    color: aqua;
+} 
+nav > a {
+    margin-left: 15px;
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    font-size: 40px;
+    box-shadow: 2px 2px 2px grey;
+
+}
+@media screen and (min-width: 360px) and (max-width: 767px) {
+    .contenedorheader {
+      flex-direction: column;
+     
+    }
+  
+    .image {
+      width: 80px;
+      height: 80px;
+      margin-bottom: 5px;
+      margin-left: -40px;
+    }
+  
+    h1 {
+      font-size: 1.2rem;
+      margin-bottom: 5px;
+      margin-left: -40px;
+    }
+  
+    nav {
+      flex-direction: column;
+      margin-left: -40px;
+    }
+  
+    nav a {
+      font-size: 1rem;
+    }
+  
+    .contenedoriconos {
+      margin-left:-40px;
+      margin-top: 20px;
+    }
+  }
+  
+  

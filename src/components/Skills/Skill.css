@@ -1,0 +1,9 @@
+.contenedorskills {
+    margin-top: -20px;
+   
+}
+@media  screen and (min-width: 360px) and (max-width: 727px) {
+    .contenedorskills {
+        margin-right: 70px;
+    }
+}

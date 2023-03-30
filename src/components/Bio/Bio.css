@@ -1,0 +1,87 @@
+.background {
+    background-image: url("../../assets/pared.jpg");
+    background-size: cover;
+    margin-top: -50px;
+}
+
+.contenedorBio {
+ display: flex;
+ justify-content: center;
+ 
+}
+.bio-content {
+    text-align: center;
+    margin-top: 20px;
+    max-width: 500px;
+    flex: 1;
+}
+.avatar-contenedor {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    max-width: 500px;
+    flex: 1;
+
+}
+.avatar {
+    margin-left: 20px;
+    margin-top: 20px;
+    
+}
+.imagen-avatar {
+    border-radius: 25%;
+    border: 1px solid black;
+}
+.bio {
+   margin-bottom: 2rem;
+   }
+p {
+    color: #000;
+    font-size: 20px;
+}
+.list li{
+   display: block;
+   margin: 10px;
+   position: relative;
+   padding-left: 40px;
+   
+}
+.lista li:before {
+    content: "";
+    display: inline-block;
+    width: 35px; /* Establecemos el ancho del icono */
+    height: 35px; /* Establecemos la altura del icono */
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .lista li i {
+    display: inline-block;
+    width: 35px; /* Establecemos el ancho del icono */
+    height: 35px; /* Establecemos la altura del icono */
+    position: absolute;
+    left: 0;
+    top: 0;
+  
+  } 
+  @media screen and (min-width: 360px) and (max-width: 767px) {
+     .contenedorBio {
+        display: flex;
+        flex-direction: column;
+
+     }
+    .bio-content{
+      width: 80%;
+      
+     
+        
+    }
+    .list {
+        margin-left: 0px;
+    }
+
+    .avatar-contenedor{
+       width: 75%;
+
+    }
+  }
